@@ -1,0 +1,7 @@
+{
+    "default": "text/plain",
+    ".txt": "text/plain",
+    ".html": "text/html",
+    ".css": "text/css",
+    ".ico": "image/x-icon"
+}

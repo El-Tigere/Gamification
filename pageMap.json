@@ -1,0 +1,5 @@
+{
+    "default": "/notFound.html",
+    "/": "/index.html",
+    "/favicon.ico": "/icon.ico"
+}

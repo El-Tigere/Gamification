@@ -10,5 +10,7 @@
     "gamification"
   ],
   "author": "El_Tigere",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  }
 }
