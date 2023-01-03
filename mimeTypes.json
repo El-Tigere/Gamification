@@ -3,5 +3,6 @@
     ".txt": "text/plain",
     ".html": "text/html",
     ".css": "text/css",
-    ".ico": "image/x-icon"
+    ".ico": "image/x-icon",
+    ".png": "image/png"
 }

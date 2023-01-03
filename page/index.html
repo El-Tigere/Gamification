@@ -11,5 +11,11 @@
     <body>
         <h1>Titel</h1>
         <p>Text</p>
+        <hr>
+        <h1>Kunst</h1>
+        <button onclick="document.getElementById('spoiler').className = ['shown', 'hidden'][+document.getElementById('spoiler').classList.contains('shown')]">show</button>
+        <div id="spoiler" class="hidden">
+            <img src="kunst.png" alt="kunst">
+        </div>
     </body>
 </html>
