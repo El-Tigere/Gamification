@@ -13,6 +13,8 @@ const server = http.createServer((req, res) => {
     const url = (((req.url || '/').match(/^([\w\d/]\.?)+$/g) || [''])[0].toLowerCase());
     if(url == '') {
         res.writeHead(404);
+        const content = fs.readFileSync('page' + pageMap['default']);
+        res.write(content);
         res.end();
         return;
     }
